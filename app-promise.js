@@ -16,7 +16,7 @@ const argv = yargs
     .argv;
 
 var encodedAddress = encodeURIComponent(argv.address);
-var geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}&key=AIzaSyB6rf_htVXIJ4ku7VqX0-MIDo9fqngW1jk`;
+var geocodeUrl = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodedAddress}&key=AIzaSyB6rf_htIJ4ku7VqX0-MIDo9fqngW1jk`;
 
 //Promise Chaining using axios API
 axios.get(geocodeUrl).then((response)=>{
@@ -26,7 +26,7 @@ axios.get(geocodeUrl).then((response)=>{
     var city = response.data.results[0].address_components[3].long_name;
     var lat = response.data.results[0].geometry.location.lat;
     var lng = response.data.results[0].geometry.location.lng;
-    var weatherURL = `https://api.darksky.net/forecast/9a74ae19609d480ea6806261d208045f/${lat},${lng}`;
+    var weatherURL = `https://api.darksky.net/forecast/9a74ae19609d4ea680626d208045f/${lat},${lng}`;
     //console.log(response.data.results[0].formatted_address);
     console.log('Right now in ',city );
 
