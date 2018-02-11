@@ -8,7 +8,7 @@ const argv = yargs
             alias:'address',
             describe:'Enter an Address to fetch weather',
             string: true,
-            default: 'dallas'
+            default: '2345 Collins, TX'
         }
     })
     .help()

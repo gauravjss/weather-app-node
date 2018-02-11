@@ -20,7 +20,7 @@ Using Google Weather API to create a Super Cool Weather App in Node.js.
         Moreover it's going to be Light rain on Saturday and next Sunday, with temperatures rising to 81°F on Thursday.
 
         
-     c. Help is available
+     c. Without Arguments it gives weather for default city : Collins, TX
      
         I/P : 
         
@@ -28,8 +28,9 @@ Using Google Weather API to create a Super Cool Weather App in Node.js.
         
         O/P:
         
-        Options:
-          -a, --address  Enter an Address to fetch weather           [string] [required]
-          --help, -h     Show help                                             [boolean]
+        Right now in  Denton County
+        It is 28.4 °F and It feels like 18.6 °F.
+        You can expect a high of 41.41 °F  and a low of 24.33 °F .
+        Moreover it's going to be Light rain on Saturday and next Sunday, with temperatures rising to 82°F on Thursday.                                           [boolean]
 
         
