@@ -14,8 +14,11 @@ Using Google Weather API to create a Super Cool Weather App in Node.js.
 
         O/P:
             
-        7708 Lloyd Valley Ln, Dallas, TX 75230, USA
-        It's currently 31.06F and It feels like 22.22F.
+        Right now in  Dallas
+        It is 31.48 °F and It feels like 22.72 °F.
+        You can expect a high of 40.94 °F  and a low of 29.16 °F .
+        Moreover it's going to be Light rain on Saturday and next Sunday, with temperatures rising to 81°F on Thursday.
+
         
      c. Help is available
      
