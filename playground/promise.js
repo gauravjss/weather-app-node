@@ -28,7 +28,7 @@ asyncAdd(10,'7').then((res)=>{
     console.log(errorMessage);
 });
 
-//Promise Chaining, Catch Block is Fail Safe even if one promise fails.s
+//Promise Chaining, Catch Block is Fail Safe even if one promise fails.
 asyncAdd(10,'7').then((res)=>{
         console.log(res);
         return asyncAdd(res,33);
