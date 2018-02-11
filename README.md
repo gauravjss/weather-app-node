@@ -2,7 +2,9 @@ Using Google Weather API to create a Super Cool Weather App in Node.js.
 
 1. Navigate to the base-directory from node.
 2. Run npm install.
-3. Run node app-promise -a "address"
+3. Replace your Google API and Dark-Sky API key at respective locations in app-promise.js file.
+   (The ones added in the project will not work, they are mock).
+4. Run node app-promise -a "address"
 
     a. "address" can be " ZIP Code or Street Address along with city name"
     
